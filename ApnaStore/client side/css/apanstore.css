@@ -1,0 +1,629 @@
+/* Class Use */
+
+
+.backgroundcolor {
+    background-color: rgb(171, 255, 44);
+}
+
+.nunito {
+    font-family: 'Nunito', sans-serif;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hover:hover {
+    color: red;
+}
+
+/* Header Section */
+.sticky {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+}
+
+.sticky+.container-fluid {
+    padding-top: 5rem;
+}
+
+.line {
+    margin: 0px;
+    line-height: 0.6rem;
+    font-size: 30px;
+    opacity: 0.1;
+}
+
+#container-fluid {
+    background-color: limegreen;
+    color: black;
+    height: 5rem;
+    box-sizing: border-box;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#col a {
+    text-decoration: none;
+    color: black;
+}
+
+#col img {
+    height: 4.5rem;
+}
+
+#col img:hover {
+    cursor: pointer;
+}
+
+#col1 nav {
+    padding-top: 5px;
+    background-color: limegreen;
+    height: 5rem;
+}
+
+#col1 nav form {
+    margin: 2px 0px 0px 0px;
+    width: 40rem;
+    height: 2rem;
+}
+
+#col1 nav form input {
+    border-radius: 0px 5px 5px 0px;
+    margin: 0px 0px 0px 0px;
+    outline: none;
+    border: none;
+    width: 20rem;
+}
+
+#col1 form #sub_col1 input {
+    border-radius: 5px 0px 0px 5px;
+    width: 10rem;
+}
+
+#icon {
+    margin: -2px 0px 0px 0px;
+    color: rgb(255, 74, 43);
+}
+
+#icon:hover {
+    cursor: pointer;
+    color: red;
+}
+
+#icon1 {
+    margin: 2px 0px 0px 0px;
+    color: royalblue;
+}
+
+#icon1:hover {
+    cursor: pointer;
+    color: rgb(33, 33, 250);
+}
+
+#col2 span {
+    font-size: 15px;
+}
+
+#col2 span:hover {
+    cursor: pointer;
+}
+
+#col2 button {
+    margin: 8px 0px 0px 0px;
+    height: 2rem;
+    background-color: darkorange
+}
+
+#col2 button:hover {
+    background-color: orange;
+    color: white;
+}
+
+@media screen and (max-width: 1200px) {
+
+    div#container-fluid {
+        height: 4rem;
+    }
+
+    div#col {
+        margin: 0rem 0rem 0rem 3rem;
+    }
+
+    div#col img {
+        height: 3.5rem;
+    }
+
+    div#col a {
+        font-size: 2rem;
+    }
+
+    div#row {
+        margin: 0rem 0rem 0rem -4rem;
+    }
+    div#col1{
+        margin: 0rem;
+    }
+
+    div#col1 nav {
+        height: 4rem;
+    }
+
+    div#col2 button {
+        margin: -7px 0px 0px 50px;
+        height: 2rem;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    div#container-fluid {
+        height: 3rem;
+    }
+
+    div#col img {
+        height: 2.5rem;
+    }
+
+    div#col a {
+        font-size: 1.5rem;
+    }
+
+    div#row {
+        margin: 0rem;
+    }
+
+    div#col1 nav {
+        height: 3rem;
+        margin: 0rem 0rem 0rem -5rem;
+    }
+
+    div#col2 button {
+        margin: -25px 0px 0px 0px;
+        height: 2rem;
+    }
+}
+
+@media screen and (max-width: 993px) {
+    div#container-fluid {
+        height: 3rem;
+    }
+
+    div#col img {
+        height: 2.5rem;
+    }
+
+    div#col a {
+        font-size: 1.5rem;
+    }
+
+    div#row {
+        margin: 0rem 0rem 0rem -5rem;
+    }
+
+    div#col1 nav {
+        height: 3rem;
+        margin: 0rem 0rem 0rem -5rem;
+    }
+
+    div#col2 button {
+        margin: -25px 0px 0px 50px;
+        height: 2rem;
+    }
+}
+
+/* @media screen and (max-width: 767px) {
+    #col1 nav form {
+        margin: 2px 0px 0px 0px;
+        width: 30rem;
+        height: 2rem;
+    }
+    div#col2 button {
+        margin: -25px 0px 0px 100px;
+        height: 2rem;
+    }
+
+} */
+
+
+/* NavBar Section */
+
+#navbar::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    background-color: rgb(171, 255, 44);
+    top: 5rem;
+    left: 0rem;
+    height: 2.5rem;
+    width: 4.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+    section#sec{
+        padding: 4rem 0rem 0rem 0rem;
+    }
+    div#navbar::before{
+        top: 4rem;
+        left: 0rem;
+        height: 2.5rem;
+        width: 4.5rem;
+    }
+    div.res{
+        height: 2.5rem;
+        margin: 0rem 0rem 0rem -5rem;
+    }
+    div.res ul li a{
+        font-size: 15px;
+        margin: 0rem 0rem 0rem -1rem;
+    }
+}
+
+.navbg {
+    background-color: rgb(171, 255, 44);
+}
+
+.navcolor {
+    color: black;
+}
+
+.clip {
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+}
+
+.bhalobhai {
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#navbar ul li a:hover {
+    color: rgb(252, 61, 61);
+}
+
+.textsize {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/* Carousel Section */
+
+.height {
+    height: 30rem;
+}
+
+.prev {
+    height: 30rem;
+    width: 5rem;
+}
+
+.next {
+    height: 30rem;
+    width: 5rem;
+}
+
+/* Ads Section */
+
+.adsmargin {
+    margin: 2rem 0rem 0rem 5rem;
+}
+
+.adsbtn {
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    top: 5.5rem;
+    border-radius: 5rem;
+    border: 1px solid white;
+    width: 3rem;
+    height: 3rem;
+}
+
+.convert {
+    filter: invert();
+}
+
+/* Fruit & Vegetables Section */
+
+.img {
+    height: 8rem;
+    width: 8rem;
+    display: block;
+    margin: auto;
+}
+
+.rate {
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.boxshadow {
+    box-shadow: 0px 0px 5px gray;
+}
+
+.cardhover:hover {
+    border: 2px solid lightgray;
+}
+
+.fvbtn {
+    height: 3rem;
+    width: 7rem;
+    border-radius: 20px;
+}
+
+/* Services Section */
+
+.image {
+    margin: 2rem 0rem 0rem 5rem;
+    height: 5rem;
+    width: 5rem;
+}
+
+.border_radius {
+    border-radius: 1rem;
+}
+
+/* BackToTop */
+
+.backtoTopbtn {
+    width: 100%;
+    height: 3rem;
+}
+
+.acolor {
+    color: black;
+}
+
+.btnbgcolor {
+    background-color: #198754;
+}
+
+/* Description Section */
+
+
+.limegreen {
+    background-color: limegreen;
+}
+
+/* Footer Section */
+
+#footer1 {
+    color: black;
+    word-spacing: 2px;
+    height: 3rem;
+}
+
+#footer1 h5 {
+    padding: 15px 0px 0px 0px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#footercol ul li a i {
+    font-size: 17px;
+    margin: 15px 0px 0px 20px;
+    color: black;
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+}
+
+#footercol ul li a i:hover {
+    color: rgb(62, 62, 255);
+    transform: rotate(-360deg);
+    transition: all 0.8s ease-in-out;
+}
+
+/* LoginForm Section */
+
+.wrapper {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 100px;
+    left: 450px;
+    height: 80vh;
+    width: 43vw;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+}
+
+.active {
+    display: none;
+}
+
+.wrapper .box1 {
+    position: absolute;
+    top: 0;
+    width: 20rem;
+    left: -14rem;
+    height: 30.5rem;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.wrapper .box1 img {
+    margin: 3.8rem 0rem 0rem 2.5rem;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+}
+
+.wrapper .box1 h3 {
+    margin: 10.4rem 3rem 0rem -3rem;
+    font-size: 20px;
+}
+
+.wrapper .box2 {
+    position: absolute;
+    left: 6rem;
+}
+
+.modalForm {
+    width: 35vw;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: rgb(0, 0, 0, 0.15) 0px 2px 8px;
+    flex-direction: column;
+}
+
+.actionBtns {
+    width: 80%;
+    background-color: limegreen;
+    margin: 1em 0rem 0rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: rgb(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+.actionBtn {
+    padding: 1em;
+    width: 50%;
+    height: 50%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.moveBtn {
+    position: absolute;
+    width: 50%;
+    height: 90%;
+    margin: 2px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    background-color: #fff;
+    font-size: 0.8em;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: rgb(0, 0, 0, 0.09) 0px 4px 12px;
+    transform: translateX(0);
+    transition: all 0.2s ease-in-out;
+}
+
+.rightBtn {
+    transform: translateX(98%);
+    transition: all 0.2s ease-in-out;
+}
+
+.inputgroup1 {
+    width: 380px;
+    margin: 0.5em 13px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 50px;
+    box-shadow: rgb(0, 0, 0, 0.12) 0px 1px 3px, rgb(0, 0, 0, 0.24) 0px 1px 2px;
+    font-weight: 500;
+}
+
+.inputgroup1 input {
+    width: 100%;
+    padding: 1em 1.5em;
+    background-color: transparent;
+    border: none;
+    border-radius: 50px;
+}
+
+.inputgroup1 input:focus {
+    outline: none;
+}
+
+.submit {
+    width: 150px;
+    padding: 1em;
+    margin: 1.5em 20px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    box-shadow: rgb(0, 0, 0, 0.12) 0px 1px 3px, rgb(0, 0, 0, 0.24) 0px 1px 2px;
+    cursor: pointer;
+    font-size: 0.8em;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+.submit:hover {
+    background-color: limegreen;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.form {
+    display: none;
+}
+
+.signupform {
+    display: block;
+}
+
+.loginform {
+    display: block;
+}
+
+#cross {
+    position: absolute;
+    top: 1rem;
+    left: 30rem;
+    cursor: pointer;
+}
+
+/* Slidebar Section */
+
+
+.sidebarimg {
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+}
+
+.slide {
+    left: 0px;
+    transition: all 1s ease-in-out;
+}
+
+.close {
+    font-size: 30px;
+    border: none;
+    outline: none;
+    margin: -0.5rem 0rem 0rem 8rem;
+}
+
+.close:hover {
+    color: rgb(250, 49, 49);
+}
+
+.offcanvas-header {
+    justify-content: start;
+}
+
+/* Profile Box Section */
+.display {
+    display: none;
+    position: absolute;
+    height: 10rem;
+    width: 15rem;
+    top: 7.5rem;
+    left: 73%;
+    background-color: white;
+    border: 1px solid rgb(163, 160, 160);
+    border-radius: 10px;
+}
+
+.btnheight {
+    width: 12.5rem;
+}
+
+/* .identifies:hover .display{
+    display: block;
+    color: rgb(250, 49, 49);
+} */

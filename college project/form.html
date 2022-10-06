@@ -1,0 +1,52 @@
+<!--Creating a form by using HTML and CSS-->
+
+<html>
+<head>
+  <meta charset= "UTF-8" />
+  <meta http-equiv= "X-UA-Compatible" content= "IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Registration form </title> 
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <section style="display:flex; flex-direction:column; flex-wrap:wrap;">
+    <h3>Student Registration Form</h3>
+    <form style="display:flex; flex-direction:column;">
+      <label>Name : </label>
+      <input type="text" name="name" placeholder="Enter Your Name" require>
+      <label>Father's Name : </label>
+      <input type="text" name="fname" placeholder="Enter Your Father's Name" require>
+      <label>Mother's Name : </label>
+      <input type="text" name="mname" placeholder="Enter Your Mother's Name" require>
+      <label>Date of Brith : </label>
+      <input type="date" name="dob" require>
+      <label>Email_Id : </label>
+      <input type="email" name="emailid" placeholder="Enter Your Email_id">
+      <label>Password : </label>
+      <input type="password" name="password" placeholder="Enter Your Password">
+       <div>
+      <label>Gender : </label>
+      <input type="radio" name="gender" value="gender" require>
+      <label>Male</label>
+      <input type="radio" name="gender" value="Male" require>
+      <label>Female </label>
+      </div>
+      <label>Course : </label>
+      <select require>
+       <option value="blanck">Select Your Course</option>
+       <option value="B.TECH">B.TECH</option>
+       <option value="BCA">BCA</option>
+       <option value="B.Sc">B.Sc</option>
+       <option value="B.com">B.com</option> 
+      </select>  
+       <label>Address : </label>
+      <textarea name="address" cols="50" rows="10" placeholder="Enter your address" require></textarea>
+      <div>
+      <input type="checkbox" name="accept"><span>I have given correct information about myself.</span>
+      </div>    
+     </form>
+     <button type="submit">Submit</button><br>
+     <button type="reset">Reset</button> 
+  </section>
+</body>
+</html>

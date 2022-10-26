@@ -1,5 +1,10 @@
 /* Class Use */
 
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
 
 .backgroundcolor {
     background-color: rgb(171, 255, 44);
@@ -18,40 +23,25 @@
 }
 
 /* Header Section */
-.sticky {
-    position: fixed;
-    width: 100%;
-    z-index: 2;
-    top: 0;
-}
-
-.sticky+.container-fluid {
-    padding-top: 5rem;
-}
-
 .line {
-    margin: 0px;
-    line-height: 0.6rem;
-    font-size: 30px;
-    opacity: 0.1;
+    margin-top: -20px;
+    font-size: 32px;
+    opacity: 0.2;
 }
 
 #container-fluid {
     background-color: limegreen;
-    color: black;
-    height: 5rem;
-    box-sizing: border-box;
-    font-size: 2.5rem;
-    font-weight: bold;
 }
 
 #col a {
     text-decoration: none;
     color: black;
+    font-size: 25px;
 }
 
 #col img {
-    height: 4.5rem;
+    width: 25%;
+    margin-top: -15px;
 }
 
 #col img:hover {
@@ -59,9 +49,9 @@
 }
 
 #col1 nav {
-    padding-top: 5px;
+    /* padding-top: 5px; */
     background-color: limegreen;
-    height: 5rem;
+    /* height: 5rem; */
 }
 
 #col1 nav form {
@@ -143,7 +133,8 @@
     div#row {
         margin: 0rem 0rem 0rem -4rem;
     }
-    div#col1{
+
+    div#col1 {
         margin: 0rem;
     }
 
@@ -241,20 +232,23 @@
 }
 
 @media screen and (max-width: 1200px) {
-    section#sec{
+    section#sec {
         padding: 4rem 0rem 0rem 0rem;
     }
-    div#navbar::before{
+
+    div#navbar::before {
         top: 4rem;
         left: 0rem;
         height: 2.5rem;
         width: 4.5rem;
     }
-    div.res{
+
+    div.res {
         height: 2.5rem;
         margin: 0rem 0rem 0rem -5rem;
     }
-    div.res ul li a{
+
+    div.res ul li a {
         font-size: 15px;
         margin: 0rem 0rem 0rem -1rem;
     }

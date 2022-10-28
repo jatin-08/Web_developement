@@ -29,13 +29,9 @@
     opacity: 0.2;
 }
 
-#container-fluid {
-    background-color: limegreen;
-}
-
 #col a {
+    font-weight: bold;
     text-decoration: none;
-    color: black;
     font-size: 25px;
 }
 
@@ -48,15 +44,9 @@
     cursor: pointer;
 }
 
-#col1 nav {
-    /* padding-top: 5px; */
-    background-color: limegreen;
-    /* height: 5rem; */
-}
-
 #col1 nav form {
     margin: 2px 0px 0px 0px;
-    width: 40rem;
+    width: 100%;
     height: 2rem;
 }
 
@@ -112,7 +102,7 @@
     color: white;
 }
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
 
     div#container-fluid {
         height: 4rem;
@@ -202,7 +192,7 @@
         margin: -25px 0px 0px 50px;
         height: 2rem;
     }
-}
+} */
 
 /* @media screen and (max-width: 767px) {
     #col1 nav form {
@@ -220,7 +210,7 @@
 
 /* NavBar Section */
 
-#navbar::before {
+/* #navbar::before {
     content: " ";
     display: block;
     position: absolute;
@@ -229,9 +219,9 @@
     left: 0rem;
     height: 2.5rem;
     width: 4.5rem;
-}
+} */
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
     section#sec {
         padding: 4rem 0rem 0rem 0rem;
     }
@@ -252,22 +242,18 @@
         font-size: 15px;
         margin: 0rem 0rem 0rem -1rem;
     }
-}
+} */
 
 .navbg {
-    background-color: rgb(171, 255, 44);
+    background-color: black;
 }
 
 .navcolor {
-    color: black;
+    color: white;
 }
 
 .clip {
     clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
-}
-
-.bhalobhai {
-    font-family: 'Baloo Bhai 2', cursive;
 }
 
 #navbar ul li a:hover {
@@ -283,33 +269,36 @@
 /* Carousel Section */
 
 .height {
-    height: 30rem;
+    height: 500px;
+
 }
 
 .prev {
-    height: 30rem;
+    height: 500px;
     width: 5rem;
 }
 
 .next {
-    height: 30rem;
+    height: 500px;
     width: 5rem;
 }
 
 /* Ads Section */
 
-.adsmargin {
-    margin: 2rem 0rem 0rem 5rem;
+.dflex {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .adsbtn {
-    background-color: white;
-    box-shadow: 0px 0px 10px black;
-    top: 5.5rem;
-    border-radius: 5rem;
+    box-shadow: 5px 5px 10px black;
+    margin: auto;
+    border-radius: 30px;
     border: 1px solid white;
-    width: 3rem;
-    height: 3rem;
+    width: 3%;
+    height: 40px;
 }
 
 .convert {
@@ -321,8 +310,9 @@
 .img {
     height: 8rem;
     width: 8rem;
-    display: block;
-    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .rate {

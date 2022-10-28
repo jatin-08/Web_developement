@@ -3,7 +3,7 @@
 
 window.onscroll = function () { myFunction() };
 
-var navbar = document.getElementById("container-fluid");
+var navbar = document.querySelectorAll(".container-fluid");
 var sticky = navbar.offsetTop;
 
 function myFunction() {
@@ -41,12 +41,12 @@ const wrapper = document.querySelector(".wrapper");
 const icon1 = document.querySelector("#cross");
 
 wrapper.addEventListener("click", (e) => {
-    if(e.target==wrapper){
-    wrapper.classList.add("active");
+    if (e.target == wrapper) {
+        wrapper.classList.add("active");
     }
 });
 
-profile.addEventListener("click", () =>{
+profile.addEventListener("click", () => {
     wrapper.classList.remove("active");
 });
 

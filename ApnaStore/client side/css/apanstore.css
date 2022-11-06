@@ -26,17 +26,18 @@
     opacity: 0.2;
 }
 
-/* .col-md-6 nav form {
+.col-md-6 nav form {
     margin: 2px 0px 0px 0px;
     width: 100%;
-    height: 2rem; */
+    height: 2rem;
+}
 
-#col1 nav form input {
+.col-md-6 nav form input {
     border-radius: 0px 5px 5px 0px;
     margin: 0px 0px 0px 0px;
     outline: none;
     border: none;
-    width: 20rem;
+    width: 80%;
 }
 
 #col1 form #sub_col1 input {
@@ -341,6 +342,9 @@
 .limegreen {
     background-color: limegreen;
 }
+.row div ul li a{
+    font-size: 15px;
+}
 
 /* Footer Section */
 
@@ -355,6 +359,10 @@
     font-size: 17px;
     font-weight: 500;
     cursor: pointer;
+}
+
+#footercol ul li a {
+    font-size: 15px;
 }
 
 #footercol ul li a i {

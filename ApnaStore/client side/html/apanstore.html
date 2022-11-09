@@ -24,10 +24,10 @@
 <body>
   <!-- Header Section -->
 
-  <div class="container-fluid limegreen" id="container-fluid">
+  <div class="container-fluid limegreen">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 d-flex">
+        <div class="col-md-2 d-flex">
           <img src="../image/cart-removebg-preview.png" alt="image" class="logo">
           <a href="javascript:void(0)" class="text-danger bhalobhai">
             Apna
@@ -36,27 +36,47 @@
             Store
           </a>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-5">
           <nav class="navbar navbar-light limegreen">
             <form class="d-flex form-control">
-              <div class="d-flex" id="sub_col1">
+              <div class="d-flex">
                 <input type="search" placeholder="Location" aria-label="Search">
-                <span class="material-symbols-sharp" id="icon">
+                <span class="material-symbols-sharp">
                   person_pin_circle
                 </span>
-                <span class="line">|</span>
+                <span class="line text-dark">|</span>
               </div>
               <input type="search" placeholder="Search" aria-label="Search">
-              <i class="fa-solid fa-magnifying-glass" id="icon1"></i>
+              <i class="fa-solid fa-magnifying-glass"></i>
             </form>
           </nav>
         </div>
-        <div class="offset-1 col-1" id="col2">
-          <button type="button" class="btn">
-            <span class="d-flex bhalobhai fw-bold">
-              <i class="fa-solid fa-cart-shopping mt-1"></i>
-              Cart</span>
-          </button>
+        <div class="col-md-1 d-flex" id="box_hover">
+          <img src="../image/flag.png" alt="">
+          <span class="bhalobhai">EN</span>
+          <i class="fa-solid fa-caret-down"></i>
+        </div>
+        <div class="box">
+          <ul class="list-unstyled">
+            <li><input type="radio" name="language" class="bhalobhai">English - EN</li>
+            <div>_________________________________________</div>
+            <li><input type="radio" name="language" class="bhalobhai">हिन्दी - HI</li>
+            <li><input type="radio" name="language" class="bhalobhai">தமிழ் - TA</li>
+            <li><input type="radio" name="language" class="bhalobhai">मराठी - MR</li>
+            <li><input type="radio" name="language" class="bhalobhai">বাংলা - BN</li>
+            <li><input type="radio" name="language" class="bhalobhai">മലയാളം - ML</li>
+            <div>_________________________________________</div>
+          </ul>
+        </div>
+        <div class="col-md-3 nunito fw-bold mt-3">
+          Hello, sign in
+          <i class="fa-solid fa-caret-down"></i>
+          <span class="mx-3">Returns & Order</span>
+        </div>
+        <div class="col-md-1">
+          <span class="d-flex bhalobhai fw-bold">
+            <i class="fa-solid fa-cart-shopping mt-1"></i>
+            Cart</span>
         </div>
       </div>
     </div>

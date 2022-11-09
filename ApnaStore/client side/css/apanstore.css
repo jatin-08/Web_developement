@@ -9,15 +9,15 @@
 
 .logo {
     width: 30%;
-    margin-top: -18px;
+    margin-top: -8px;
     cursor: pointer;
 }
 
-.col-md-3 a {
-    font-size: 30px;
+.col-md-2 a {
+    font-size: 25px;
     text-decoration: none;
     font-weight: bold;
-    margin: 2px;
+    margin: 4px 0px 0px 0px;
 }
 
 .line {
@@ -26,63 +26,60 @@
     opacity: 0.2;
 }
 
-.col-md-6 nav form {
+.col-md-5 nav form {
     margin: 2px 0px 0px 0px;
     width: 100%;
     height: 2rem;
 }
 
-.col-md-6 nav form input {
+.col-md-5 nav form input {
     border-radius: 0px 5px 5px 0px;
     margin: 0px 0px 0px 0px;
     outline: none;
     border: none;
     width: 80%;
 }
-
-#col1 form #sub_col1 input {
-    border-radius: 5px 0px 0px 5px;
-    width: 10rem;
-}
-
-#icon {
-    margin: -2px 0px 0px 0px;
-    color: rgb(255, 74, 43);
-}
-
-#icon:hover {
+.container-fluid .container .row .col-md-5 nav form div span{
+    color: tomato;
     cursor: pointer;
-    color: red;
 }
-
-#icon1 {
-    margin: 2px 0px 0px 0px;
+.container-fluid .container .row .col-md-5 nav form i{
     color: royalblue;
-}
-
-#icon1:hover {
     cursor: pointer;
-    color: rgb(33, 33, 250);
 }
 
-#col2 span {
+.col-md-1 img {
+    height: 17px;
+    margin-top: 17px;
+    width: 35%;
+}
+
+.col-md-1 span {
+    margin: 12px 0px 0px 2px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+}
+
+.col-md-1 i {
+    margin: 20px 0px 0px 1px;
     font-size: 15px;
 }
 
-#col2 span:hover {
-    cursor: pointer;
+.container-fluid .container .row .box {
+    display: none;
+    font-size: 15px;
+    background-color: white;
+    width: 30%;
+}
+.container-fluid .container .row .box:hover #box_hover{
+    display: block;
+}
+.col-md-1 span i{
+   font-size: 25px;
+   color: rgb(0, 34, 126);
 }
 
-#col2 button {
-    margin: 8px 0px 0px 0px;
-    height: 2rem;
-    background-color: darkorange
-}
-
-#col2 button:hover {
-    background-color: orange;
-    color: white;
-}
 
 */
 /* @media screen and (max-width: 1200px) {
@@ -342,7 +339,8 @@
 .limegreen {
     background-color: limegreen;
 }
-.row div ul li a{
+
+.row div ul li a {
     font-size: 15px;
 }
 

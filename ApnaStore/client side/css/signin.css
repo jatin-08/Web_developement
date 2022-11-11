@@ -1,0 +1,24 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+section {
+    align-items: center;
+    justify-content: center;
+}
+
+section img {
+    width: 8%;
+}
+
+.bhalobhai {
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.box{
+    margin: auto;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 30%;
+    padding: 10px;
+}

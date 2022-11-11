@@ -54,8 +54,8 @@
         </div>
         <div class="col-md-1 d-flex" id="box_hover">
           <img src="../image/flag.png" alt="">
-          <span class="bhalobhai">EN</span>
-          <i class="fa-solid fa-caret-down"></i>
+          <span class="bhalobhai" style="cursor: pointer;">EN</span>
+          <i class="fa-solid fa-caret-down" style="cursor: pointer;"></i>
         </div>
         <div class="box">
           <ul class="list-unstyled">
@@ -70,11 +70,13 @@
           </ul>
         </div>
         <div class="col-md-3 nunito fw-bold mt-3">
-          Hello, sign in
-          <i class="fa-solid fa-caret-down"></i>
-          <span class="mx-3">Returns & Order</span>
+          <span style="cursor: pointer;"><a class="text-decoration-none text-dark" 
+            href="../html/signin.html">Hello,
+              sign in</a></span>
+          <i class="fa-solid fa-caret-down" style="cursor: pointer;"></i>
+          <span class="mx-3" style="cursor: pointer;">Returns & Order</span>
         </div>
-        <div class="col-md-1">
+        <div class="col-md-1" style="cursor: pointer;">
           <span class="d-flex bhalobhai fw-bold">
             <i class="fa-solid fa-cart-shopping mt-1"></i>
             Cart</span>
@@ -85,45 +87,36 @@
 
   <!-- NavBar Section -->
 
-  <section class="container-fluid bg-dark" id="sec">
-    <div class="container" id="navbar">
+  <section class="container-fluid bg-dark">
+    <div class="container">
       <div class="row">
-        <div class="col-10 navbg clip nunito res">
+        <div class="col-md-12 poppins">
           <ul class="nav">
             <li class="nav-item">
               <div id="scrollspyHeading1">
-                <a class="nav-link navcolor hover fw-bold" data-bs-toggle="offcanvas" href="#offcanvasExample"
-                  role="button" aria-controls="offcanvasExample">
+                <a class="nav-link navcolor hover" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                  aria-controls="offcanvasExample">
                   <i class="fa-solid fa-bars"></i>All
                 </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link navcolor fw-bold" href="../html/apanstore.html">Home</a>
+              <a class="nav-link navcolor" href="../html/apanstore.html">Home</a>
             </li>
-            <li><a class="nav-link navcolor  fw-bold" href="../html/fruits_vegetables.html">Fruits & Vegetables</a></li>
-            <li><a class="nav-link navcolor  fw-bold" href="../html/stationaries.html">Stationeries</a></li>
-            <li><a class="nav-link navcolor  fw-bold" href="../html/snacks.html\">Snacks</a></li>
-            <li><a class="nav-link navcolor  fw-bold" href="../html/chemist.html">Chemist</a></li>
+            <li><a class="nav-link navcolor " href="../html/fruits_vegetables.html">Fruits & Vegetables</a></li>
+            <li><a class="nav-link navcolor " href="../html/stationaries.html">Stationeries</a></li>
+            <li><a class="nav-link navcolor " href="../html/snacks.html\">Snacks</a></li>
+            <li><a class="nav-link navcolor " href="../html/chemist.html">Chemist</a></li>
             <li class="nav-item">
-              <a class="nav-link navcolor  fw-bold" href="../html/grocery.html">Grocery</a>
+              <a class="nav-link navcolor " href="../html/grocery.html">Grocery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link navcolor  fw-bold" href="../html/customer_service.html">Customer service</a>
+              <a href="#" class="nav-link navcolor">Home & Kitchen</a>
             </li>
-          </ul>
-        </div>
-        <div class="col-md-1">
-          <ul class="nav">
             <li class="nav-item">
-              <a class="nav-link p-0 nunito textsize mt-2 navcolor id=" profile" href="#"><i
-                  class="fa-solid fa-user"></i>Profile</a>
+              <a href="#" class="nav-link navcolor">Best Seller</a>
             </li>
-          </ul>
-        </div>
-        <div class="col-md-1">
-          <ul class="nav">
             <li class="nav-item">
-              <a class="nav-link p-0 nunito textsize mt-2 navcolor" href="#"><i class="fa-solid fa-heart"></i>Fav</a>
+              <a class="nav-link navcolor " href="../html/customer_service.html">Customer service</a>
             </li>
           </ul>
         </div>

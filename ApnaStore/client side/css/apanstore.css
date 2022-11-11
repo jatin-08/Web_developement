@@ -39,13 +39,16 @@
     border: none;
     width: 80%;
 }
-.container-fluid .container .row .col-md-5 nav form div span{
+
+.container-fluid .container .row .col-md-5 nav form div span {
     color: tomato;
     cursor: pointer;
 }
-.container-fluid .container .row .col-md-5 nav form i{
+
+.container-fluid .container .row .col-md-5 nav form i {
     color: royalblue;
     cursor: pointer;
+    margin: 5px 0px 0px 0px;
 }
 
 .col-md-1 img {
@@ -72,12 +75,14 @@
     background-color: white;
     width: 30%;
 }
-.container-fluid .container .row .box:hover #box_hover{
+
+.container-fluid .container .row .box:hover #box_hover {
     display: block;
 }
-.col-md-1 span i{
-   font-size: 25px;
-   color: rgb(0, 34, 126);
+
+.col-md-1 span i {
+    font-size: 25px;
+    color: black;
 }
 
 
@@ -232,34 +237,34 @@
     color: white;
 }
 
-.clip {
-    clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+.container-fluid .container .row .col-md-12 ul li a{
+    font-size: 14px;
 }
 
-#navbar ul li a:hover {
+.container-fluid .container .row .col-md-12 ul li a:hover {
     color: rgb(252, 61, 61);
 }
-
-.textsize {
-    font-size: 15px;
-    font-weight: bold;
+.container-fluid .container .row .col-md-12 ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
 /* Carousel Section */
 
 .height {
-    height: 500px;
+    height: 550px;
 
 }
 
 .prev {
-    height: 500px;
+    height: 550px;
     width: 5rem;
 }
 
 .next {
-    height: 500px;
+    height: 550px;
     width: 5rem;
 }
 

@@ -237,13 +237,14 @@
     color: white;
 }
 
-.container-fluid .container .row .col-md-12 ul li a{
+.container-fluid .container .row .col-md-12 ul li a {
     font-size: 14px;
 }
 
 .container-fluid .container .row .col-md-12 ul li a:hover {
     color: rgb(252, 61, 61);
 }
+
 .container-fluid .container .row .col-md-12 ul {
     display: flex;
     align-items: center;
@@ -380,170 +381,6 @@
     color: rgb(62, 62, 255);
     transform: rotate(-360deg);
     transition: all 0.8s ease-in-out;
-}
-
-/* LoginForm Section */
-
-.wrapper {
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: 100px;
-    left: 450px;
-    height: 80vh;
-    width: 43vw;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    border: none;
-    outline: none;
-}
-
-.active {
-    display: none;
-}
-
-.wrapper .box1 {
-    position: absolute;
-    top: 0;
-    width: 20rem;
-    left: -14rem;
-    height: 29.1rem;
-    border-radius: 10px 0px 0px 10px;
-}
-
-.wrapper .box1 img {
-    margin: 3.8rem 0rem 0rem 2.5rem;
-    align-items: center;
-    justify-content: center;
-    height: 10rem;
-}
-
-.wrapper .box1 h3 {
-    margin: 10.4rem 3rem 0rem -3rem;
-    font-size: 20px;
-}
-
-.wrapper .box2 {
-    position: absolute;
-    left: 6rem;
-}
-
-.modalForm {
-    width: 35vw;
-    height: 100%;
-    border-radius: 0px 10px 10px 0px;
-    box-shadow: rgb(0, 0, 0, 0.15) 0px 2px 8px;
-    flex-direction: column;
-}
-
-.actionBtns {
-    width: 80%;
-    background-color: limegreen;
-    margin: 1em 0rem 0rem 1rem;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    border-radius: 50px;
-    box-shadow: rgb(0, 0, 0, 0.09) 0px 3px 12px;
-}
-
-.actionBtn {
-    padding: 1em;
-    width: 50%;
-    height: 50%;
-    outline: none;
-    border: none;
-    background-color: transparent;
-    border-radius: 50px;
-    color: #fff;
-    font-size: 0.8em;
-    font-weight: 600;
-    cursor: pointer;
-}
-
-.moveBtn {
-    position: absolute;
-    width: 50%;
-    height: 90%;
-    margin: 2px;
-    outline: none;
-    border: none;
-    border-radius: 50px;
-    background-color: #fff;
-    font-size: 0.8em;
-    font-weight: 600;
-    cursor: pointer;
-    box-shadow: rgb(0, 0, 0, 0.09) 0px 4px 12px;
-    transform: translateX(0);
-    transition: all 0.2s ease-in-out;
-}
-
-.rightBtn {
-    transform: translateX(98%);
-    transition: all 0.2s ease-in-out;
-}
-
-.inputgroup1 {
-    width: 380px;
-    margin: 0.5em 13px;
-    background-color: rgb(245, 245, 245);
-    border-radius: 50px;
-    box-shadow: rgb(0, 0, 0, 0.12) 0px 1px 3px, rgb(0, 0, 0, 0.24) 0px 1px 2px;
-    font-weight: 500;
-}
-
-.inputgroup1 input {
-    width: 100%;
-    padding: 1em 1.5em;
-    background-color: transparent;
-    border: none;
-    border-radius: 50px;
-}
-
-.inputgroup1 input:focus {
-    outline: none;
-}
-
-.submit {
-    width: 150px;
-    padding: 1em;
-    margin: 1.5em 20px;
-    border-radius: 50px;
-    border: none;
-    outline: none;
-    background-color: #fff;
-    box-shadow: rgb(0, 0, 0, 0.12) 0px 1px 3px, rgb(0, 0, 0, 0.24) 0px 1px 2px;
-    cursor: pointer;
-    font-size: 0.8em;
-    font-weight: 600;
-    transition: all 0.3s ease-in-out;
-}
-
-.submit:hover {
-    background-color: limegreen;
-    color: #fff;
-    transition: all 0.3s ease-in-out;
-}
-
-.form {
-    display: none;
-}
-
-.signupform {
-    display: block;
-}
-
-.loginform {
-    display: block;
-}
-
-#cross {
-    position: absolute;
-    top: 1rem;
-    left: 30rem;
-    cursor: pointer;
 }
 
 /* Slidebar Section */

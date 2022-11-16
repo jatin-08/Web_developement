@@ -9,16 +9,81 @@ section {
 }
 
 section img {
-    width: 8%;
+    width: 5%;
 }
 
 .bhalobhai {
     font-family: 'Baloo Bhai 2', cursive;
 }
-.box{
+
+.box {
     margin: auto;
     flex-direction: column;
-    border: 2px solid black;
+    border: 1px solid rgb(206, 200, 200);
     width: 30%;
-    padding: 10px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.box input {
+    padding: 2px;
+    width: 100%;
+}
+
+.box button {
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    border: 2px solid rgb(245, 178, 55);
+    margin: 10px 0px 10px 0px;
+    border-radius: 5px;
+    background-color: rgb(245, 178, 55);
+}
+
+.box p {
+    font-size: 12px;
+}
+
+.box span i {
+    color: rgb(55, 54, 54);
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+.box span a {
+    font-size: 12px;
+}
+
+body div {
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+body div p {
+    color: rgb(174, 173, 173);
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+body div button {
+    width: 28%;
+    padding: 5px;
+    justify-content: center;
+    font-size: 13px;
+    outline: none;
+    border: 1px solid rgb(178, 178, 178);
+    border-radius: 5px;
+    background-color: rgb(245, 178, 55);
+}
+footer ul li a {
+    font-size: 12px;
+}
+
+footer div p {
+    font-size: 12px;
+    font-weight: 500;
 }

@@ -1,0 +1,9 @@
+                                                             Python Notes
+                   
+1.  Python is a programming language or a sequential language?
+2.  what is the difference btw scripting language and programming language?
+3.  Python is a high level language.
+4.  Syntax print("Hello world!");
+5.  Python contain losts of in-built library.
+6.  In this we have to follow some sequence or steps (Sequential Programming ).
+7.  

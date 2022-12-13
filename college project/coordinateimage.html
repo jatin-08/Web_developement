@@ -1,0 +1,35 @@
+<!-- Create a webpage to get the coordinate from an image using javascript -->
+
+<html>
+
+<head>
+    <title> JavaScript Image Map </title>
+    <script>
+        function show(name) {
+            document.my.res.value = name;
+        }  
+    </script>
+</head>
+
+<body style="text-align: center;">
+    <h2> It is an example of JavaScript's Image map </h2>
+    <form name="my">
+        <input type="text" name="res" size="25px"
+            style="font-size: 25px;text-align: center;border: 2px solid blue; background-color: pink;" />
+    </form>
+    <br>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" border="5" usemap="#names"
+        height="300px" />
+
+    <map name="names">
+        <area shape="rect" coords="0, 0, 325, 90"
+            href="https://images.indianexpress.com/2021/03/pixabay_forests_tree-house-1200.jpg"
+            onclick="show('Forest.jpg')" />
+
+        <area shape="circle" coords="150, 140, 60"
+            href="https://i.natgeofe.com/k/07176791-9577-4e31-b101-b10ca7ca9a3c/Stripes_Tiger-Terrific_KIDS_0722_4x3.jpg"
+            onclick="show('Tiger.png')" />
+    </map>
+</body>
+
+</html>

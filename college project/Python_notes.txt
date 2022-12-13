@@ -6,4 +6,36 @@
 4.  Syntax print("Hello world!");
 5.  Python contain losts of in-built library.
 6.  In this we have to follow some sequence or steps (Sequential Programming ).
-7.  
+7.  If you want to print integer number you
+8.  By using of  " \ " it remove the space from the string.
+9.  End='Parameter' it cannot break the line.
+10. For taking the input we have use input("Statement").;
+11. If we want to find the index it start with 0 and if we want to find the length it start with 1
+
+Question1) In a cricket tournament,  based on the outcomes of a paritcular match a team gets following points
+                 wins gets 3 points
+                 draw get 1 points
+                 loss get 0 points
+A team played 8 matches and he win 4 , 3draw , 1loss.find how many point he gets.
+
+Question2) You want to print the word from the given String.
+
+12. Type() def function give the output of the data type a given variable 
+
+Question3) Take a input of a date of birth and calculate how old he are in present
+Ans)
+      print("Enter your Date of Birth:")
+     date=int(input("Enter Date:"))
+     month=int(input("Enter Month:"))
+    day=int(input("Enter Year:"))
+    print("Enter Current year Details:")
+   date1=int(input("Enter Current Date:"))
+   month1=int(input("Enter Current Month:"))
+  day1=int(input("Enter Current Year:"))
+  d=date1-date
+  m=month1-month
+ da=day1-day
+ print ("you are ",da,"years ",m,"months and ",d,"days old.")
+
+Ques) Find the difference between append and extend method
+13. Append and Extend does not return any thing.

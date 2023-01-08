@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript validation form</title>
+    <style>
+        form input {
+            padding: 10px;
+            margin: 10px;
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="max-width: 100%; width: 500px; margin: auto;">
+        <h1 style="text-align: center;">Regestration form</h1>
+        <div>
+            <form name="regform" action="#" method="post" onsubmit="validateForm()"
+                style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <input type="text" placeholder="Enter your Name" name="name">
+                <input type="email" placeholder="Enter your Email" name="email">
+                <input type="password" placeholder="Enter your Password" name="password">
+                <input type="submit" name="submit">
+                <input type="reset" name="reset">
+            </form>
+        </div>
+    </div>
+    <script>
+        function validateForm() {
+            var name = document.forms["regform"]["name"].value;
+            var email = document.forms["regform"]["email"].value;
+            var password = document.forms["regform"]["password"].value
+            if (name == "" || email == "" || password == "") {
+                alert("Please Enter all the required field!");
+                return false;
+            }
+        }
+    </script>
+</body>
+
+</html>
